@@ -54,7 +54,7 @@ const default_config = {
             {
               name: "mod db",
               url: "https://mods.vintagestory.at",
-              icon: "blocks",
+              icon: "cube-plus",
               icon_color: palette.peach,
             },
           ],
@@ -65,7 +65,7 @@ const default_config = {
             {
               name: "fmhy",
               url: "https://fmhy.net",
-              icon: "send-2",
+              icon: "player-play",
               icon_color: palette.green,
             },
             {
