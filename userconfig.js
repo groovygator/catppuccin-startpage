@@ -1,5 +1,5 @@
 // latte / frappe / macchiato / mocha
-const palette = macchiato;
+const palette = mocha;
 
 const default_config = {
   overrideStorage: true,
@@ -16,80 +16,74 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
-      background_url: "src/img/banners/cbg-09.gif",
+          name: "myself",
+      background_url: "src/img/banners/cbg-15.gif",
       categories: [
         {
-          name: "bookmarks",
+          name: "minecraft",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              name: "curseforge",
+              url: "https://www.curseforge.com/minecraft",
+              icon: "hammer",
               icon_color: palette.green,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
+              name: "modrinth",
+              url: "https://modrinth.com",
+              icon: "settings",
+              icon_color: palette.peach,
+            },
+            {
+              name: "exaroton",
+              url: "https://exaroton.com",
+              icon: "settings-2",
+              icon_color: palette.red,
+            },
+          ],
+        },
+        {
+          name: "vintage story",
+          links: [
+            {
+              name: "wiki",
+              url: "https://wiki.vintagestory.at",
+              icon: "book",
+              icon_color: palette.green,
+            },
+            {
+              name: "mod db",
+              url: "https://mods.vintagestory.at",
+              icon: "blocks",
               icon_color: palette.peach,
             },
           ],
         },
         {
-          name: "workspace",
+          name: "stuff",
           links: [
             {
-              name: "gmail",
-              url: "https://mail.google.com",
-              icon: "brand-gmail",
+              name: "fmhy",
+              url: "https://fmhy.net",
+              icon: "send-2",
               icon_color: palette.green,
             },
             {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
+              name: "rutracker",
+              url: "https://rutracker.org",
+              icon: "skull",
               icon_color: palette.peach,
             },
             {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
+              name: "terraria wiki",
+              url: "https:/terraria.wiki.gg",
+              icon: "books",
               icon_color: palette.red,
             },
             {
-              name: "drive",
-              url: "https://drive.google.com/drive/home",
-              icon: "brand-google-drive",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "media",
-          links: [
-            {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
-              icon_color: palette.green,
-            },
-            {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
-              icon_color: palette.red,
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
+              name: "translate",
+              url: "https://libretranslate.com",
+              icon: "language-hiragana",
               icon_color: palette.blue,
             },
             {
