@@ -86,7 +86,7 @@ const default_config = {
     },
     {
       name: "tech",
-      background_url: "src/img/banners/cbg-13.gif",
+      background_url: "src/img/banners/cbg-16.gif",
       categories: [
         {
           name: "tinkering",
