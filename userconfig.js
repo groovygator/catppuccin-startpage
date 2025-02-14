@@ -16,7 +16,7 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-          name: "myself",
+          name: "main",
       background_url: "src/img/banners/cbg-15.gif",
       categories: [
         {
@@ -87,9 +87,9 @@ const default_config = {
               icon_color: palette.blue,
             },
             {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
+              name: "digdeeper",
+              url: "https://digdeeper.club",
+              icon: "binary",
               icon_color: palette.mauve,
             },
           ],
@@ -97,11 +97,11 @@ const default_config = {
       ],
     },
     {
-      name: "dev",
-      background_url: "src/img/banners/cbg-07.gif",
+      name: "tech",
+      background_url: "src/img/banners/cbg-13.gif",
       categories: [
         {
-          name: "development",
+          name: "tinkering",
           links: [
             {
               name: "github",
@@ -110,32 +110,32 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
+              name: "gpt",
+              url: "https://hoody.com.ai",
               icon: "circle-triangle",
               icon_color: palette.peach,
             },
             {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
+              name: "arch wiki",
+              url: "https://wiki.archlinux.org",
+              icon: "pacman",
               icon_color: palette.red,
             },
           ],
         },
         {
-          name: "challenges",
+          name: "work",
           links: [
             {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
+              name: "disroot",
+              url: "https://webmail.disroot.org",
+              icon: "mail",
               icon_color: palette.green,
             },
             {
-              name: "leetcode",
-              url: "https://leetcode.com",
-              icon: "code-plus",
+              name: "cloud",
+              url: "https://cloud.disroot.org",
+              icon: "cloud",
               icon_color: palette.peach,
             },
             {
