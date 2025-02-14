@@ -4,7 +4,7 @@ const palette = mocha;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "Zawiercie",
+    location: "London",
     scale: "C",
   },
   clock: {
@@ -216,13 +216,13 @@ const default_config = {
               name: "/piracy",
               url: "https://reddit.com/r/piracy",
               icon: "flag",
-              icon_color: palette.green
+              icon_color: palette.green,
             },
             {
               name: "/CrackWatch",
               url: "https://reddit.com/r/CrackWatch",
               icon: "egg-cracked",
-              icon_color: palette.peach
+              icon_color: palette.peach,
             },
             {
               name: "/PiratedGames",
