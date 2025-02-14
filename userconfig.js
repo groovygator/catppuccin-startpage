@@ -4,7 +4,7 @@ const palette = mocha;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Zawiercie",
     scale: "C",
   },
   clock: {
@@ -62,18 +62,6 @@ const default_config = {
         {
           name: "stuff",
           links: [
-            {
-              name: "fmhy",
-              url: "https://fmhy.net",
-              icon: "player-play",
-              icon_color: palette.green,
-            },
-            {
-              name: "rutracker",
-              url: "https://rutracker.org",
-              icon: "skull",
-              icon_color: palette.peach,
-            },
             {
               name: "terraria wiki",
               url: "https:/terraria.wiki.gg",
@@ -184,87 +172,89 @@ const default_config = {
       ],
     },
     {
-      name: "chi ll",
+      name: "piracy",
       background_url: "src/img/banners/cbg-08.gif",
       categories: [
         {
-          name: "social media",
+          name: "general",
           links: [
-            {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
+              name: "fmhy",
+              url: "https://fmhy.net",
+              icon: "player-play",
               icon_color: palette.green,
             },
             {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
-              icon_color: palette.peach,
-            },
-            {
-              name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
+              name: "megathread",
+              url: "https://rentry.co/megathread",
               icon: "brand-reddit",
-              icon_color: palette.red,
-            },
-          ],
-        },
-        {
-          name: "gaming",
-          links: [
-            {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
-              icon: "device-gamepad",
-              icon_color: palette.green,
+              icon_color: palette.peach,
             },
             {
-              name: "steam",
-              url: "https://store.steampowered.com",
+             name: "rutracker",
+              url: "https://rutracker.org",
+              icon: "skull",
+              icon_color: palette.red, 
+            },
+            {
+              name: "fitgirl",
+              url: "https://fitgirl-repacks.site",
+              icon: "woman",
+              icon_color: palette.blue,
+            },
+            {
+              name: "cs.rin.ru",
+              url: "https://cs.rin.ru/forum/",
               icon: "brand-steam",
-              icon_color: palette.peach,
-            },
-            {
-              name: "epicgames",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
-              icon_color: palette.red,
-            },
-            {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
-              icon_color: palette.blue,
+              icon_color: palette.mauve
             },
           ],
         },
         {
-          name: "video",
+        name: "subs",
           links: [
             {
-              name: "anilist",
-              url: "https://anilist.co/home",
-              icon: "brand-funimation",
+              name: "/piracy",
+              alt: ["reddit piracy", "piracy reddit", "r/piracy"],
+              url: "https://reddit.com/r/piracy",
+              icon: "flag",
+              icon_color: palette.green
+            },
+            {
+              name: "/CrackWatch",
+              alt: ["reddit crackwatch", "crackwatch", "crackwatch reddit", "r/crackwatch"],
+              url: "https://reddit.com/r/CrackWatch",
+              icon: "egg-cracked",
+              icon_color: palette.peach
+            },
+            {
+              name: "/PiratedGames",
+              alt: ["piratedgames", "reddit piratedgames", "piratedgames reddit", "r/piratedgames"],
+              url: "https://reddit.com/r/PiratedGames",
+              icon: "device-gamepad",
+              icon_color: palette.red
+            },
+          ],
+        },
+        {
+          name: "mp3",
+          links: [
+            {
+              name: "squid",
+              url: "https://eu.qobuz.squid.wtf/",
+              icon: "vinyl",
               icon_color: palette.green,
             },
             {
-              name: "youtube",
-              url: "https://www.youtube.com",
-              icon: "brand-youtube",
+              name: "cobalt",
+              url: "https://cobalt.tools/",
+              icon: "cat",
               icon_color: palette.peach,
             },
             {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
-              icon_color: palette.red,
-            },
-            {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
-              icon_color: palette.blue,
+              name: "lucida",
+              url: "https://lucida.to/",
+              icon: "headphones",
+              icon_color: palette.red
             },
           ],
         },
