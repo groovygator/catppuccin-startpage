@@ -86,7 +86,7 @@ const default_config = {
     },
     {
       name: "tech",
-      background_url: "src/img/banners/cbg-16.gif",
+      background_url: "src/img/banners/cbg-13.gif",
       categories: [
         {
           name: "tinkering",
@@ -214,21 +214,18 @@ const default_config = {
           links: [
             {
               name: "/piracy",
-              alt: ["reddit piracy", "piracy reddit", "r/piracy"],
               url: "https://reddit.com/r/piracy",
               icon: "flag",
               icon_color: palette.green
             },
             {
               name: "/CrackWatch",
-              alt: ["reddit crackwatch", "crackwatch", "crackwatch reddit", "r/crackwatch"],
               url: "https://reddit.com/r/CrackWatch",
               icon: "egg-cracked",
               icon_color: palette.peach
             },
             {
               name: "/PiratedGames",
-              alt: ["piratedgames", "reddit piratedgames", "piratedgames reddit", "r/piratedgames"],
               url: "https://reddit.com/r/PiratedGames",
               icon: "device-gamepad",
               icon_color: palette.red
